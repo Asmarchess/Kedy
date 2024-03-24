@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+div{
+    width: 250px;
+}
+p{
+    width: 420px;
+}
+h1{
+font-family: 'Times New Roman', Times, serif    ;
+}
+button{
+    background-color: white;
+    color: red;
+    border: solid red;
+    border-radius: 5px;  
+    padding: 10px 30px;  
+}
