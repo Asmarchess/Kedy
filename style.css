@@ -1,21 +1,45 @@
-.container{
-    display: flex;
-    justify-content:center;
-    align-items: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-div{
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.container > div{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 20px;
+}
+h1{
     width: 250px;
 }
 p{
-    width: 420px;
+    width: 440px;
+    margin-top: 20px;
 }
-h1{
-font-family: 'Times New Roman', Times, serif    ;
+img{
+    border-radius: 3px;
+    height: 100%;
+}
+image{
+    height: 100vh;
+    padding: 20px;
 }
 button{
     background-color: white;
     color: red;
     border: solid red;
     border-radius: 5px;  
-    padding: 10px 30px;  
+    padding: 10px 30px;
+    margin-top: 30px;  
+}
+button:hover{
+    background-color:gray;
+    color: white;
 }
